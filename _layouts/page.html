@@ -7,6 +7,19 @@ layout: base
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      {% if page.repo or page.download %}
+      <div class="buttons-wrap">
+        {% if page.download %}
+        <a class="btn btn-success btn-lg" href="{{ page.download }}">Letöltés</a>
+        {% endif %}
+
+        {% if page.repo %}
+        <a class="btn btn-success btn-lg" href="{{ page.repo }}">GitHub</a>
+        {% endif %}
+      </div>
+      {% endif %}
+
       {{ content }}
 	    {% if page.comments %}
         <div class="disqus-comments">

@@ -207,3 +207,18 @@ gems:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+# https://stackoverflow.com/a/37994328/2334951
+months:
+    - január
+    - február
+    - március
+    - április
+    - május
+    - június
+    - július
+    - augusztus
+    - szeptember
+    - október
+    - november
+    - december
